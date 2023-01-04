@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+ <meta name="viewport" content="with=device-width, initial-scale=1.0">
+ <title> Frida Gallery </title>
+
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="Pictures/images/pic1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li> <a href="index.html"> Home</a></li>
+            <li> <a href="about.html"> About</a></li>
+            <li> <a href="page.html"> Gallery</a></li>
+            <li> <a href="portfolio.htm"> My Portfolio</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-boxpage"> 
+        <h1> Virtual Gallery</h1>
+        
+    </div>
+ 
+      
+ </section>
+
+ 
+ <!------Practice-->
+
+ <section class="practice">
+    <h1> Photo Gallery </h1>
+    <p> "Curiosity is one of the permanent and certain characteristics of a vigorous mind".
+        <a href="https://en.wikipedia.org/wiki/Samuel_Johnson" class="wikipedia-statements"> Johnson, Samuel</a> 
+       </p>
+    
+   
+    <div class="row">
+       <div class="practice-col">
+           <img src="Pictures/images/for page/IMG_20200905_144418.jpg">
+           <div class="layer">
+               <h3> Flowers <br>  
+               </h3> 
+           </div>
+       </div>
+   
+       <div class="practice-col">
+           <img src="Pictures/images/for page/IMG_20200906_162933.jpg">
+           <div class="layer">
+               <h3> Bugs             
+               </h3> 
+           </div>
+       </div>
+   
+       <div class="practice-col">
+           <img src="Pictures/images/for page/IMG_20201015_232817.jpg">
+           <div class="layer">
+               <h3> Maine-Coon            
+               </h3> 
+           </div>
+       </div>
+
+       
+    
+       
+   
+    </div>
+  
+    <div class="row">
+        <div class="practice-col">
+            <img src="Pictures/images/for page/IMG_20210104_18563611.jpg">
+            <div class="layer">
+                <h3> 
+                    Embankments <br>  
+                </h3> 
+            </div>
+        </div>
+    
+        <div class="practice-col">
+            <img src="Pictures/images/for page/IMG_20210104_19350711.jpg">
+            <div class="layer">
+                <h3> Streets            
+                </h3> 
+            </div>
+        </div>
+    
+        <div class="practice-col">
+            <img src="Pictures/images/for page/IMG_20201118_08082711.jpg">
+            <div class="layer">
+                <h3> Winter            
+                </h3> 
+            </div>
+        </div>
+ 
+      
+    
+    
+     </div>
+
+     <div class="row">
+        <div class="practice-col">
+            <img src="Pictures/images/for page/IMG_20201024_131824.jpg">
+            <div class="layer">
+                <h3> 
+                    St. Petersburg 
+                </h3> 
+            </div>
+        </div>
+    
+        <div class="practice-col">
+            <img src="Pictures/images/for page/IMG_20200726_135232.jpg">
+            <div class="layer">
+                <h3> Parks            
+                </h3> 
+            </div>
+        </div>
+        <div class="practice-col">
+            <img src="Pictures/images/for page/IMG_20201002_161317.jpg">
+            <div class="layer">
+                <h3> Autumn            
+                </h3> 
+            </div>
+        </div>
+    
+        
+    
+     </div>
+
+     <div class="row">
+       
+    
+        <div class="practice-col">
+            <img src="Pictures/images/for page/IMG_20200717_141130.jpg">
+            <div class="layer">
+                <h3> Sky            
+                </h3> 
+            </div>
+        </div>
+ 
+        <div class="practice-col">
+         <img src="Pictures/images/for page/IMG_20201002_152143.jpg">
+         <div class="layer">
+             <h3> Forest            
+             </h3> 
+         </div>
+     </div>
+     <div class="practice-col">
+         <img src="Pictures/images/for page/IMG_20200714_163407.jpg">
+         <div class="layer">
+             <h3> Sea            
+             </h3> 
+         </div>
+     </div> 
+    
+     </div>
+
+    </section>
+   
+   
+
+
+
+<section class="footer">
+
+     <h4> About us </h4> 
+     <p> "Admiration is a very shortlived passion, that immediately decays <br> upon growing familiar with its object". 
+         <a href="https://en.wikipedia.org/wiki/Joseph_Addison" class="wikipedia-statements"> Joseph Addison </a> 
+        </p>
+        <div class="icons">
+            <a href="about.html"><i class="fa fa-dollar"></i></a>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <a href="https://t.me/fridasolomon" ><i class="fa fa-telegram"></i></a>
+
+        </div>
+       
+        <p> Made with  <i class="fa fa-heart-o"></i> by FridaSolomon </p>
+
+</section>
+
+
+
+
+
+ <!-------- JavaScript for Toggle menu ---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right="0";
+    }
+    function hideMenu() {
+        navLinks.style.right="-300px";
+    }
+
+</script>
+
+</body>
+</html>

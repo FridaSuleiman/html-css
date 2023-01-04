@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+ <meta name="viewport" content="with=device-width, initial-scale=1.0">
+ <title> Frida Gallery </title>
+
+ <link rel="stylesheet" href="styles.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="sub-header">
+    <nav>
+          <a href="index.html"><img src="Pictures/images/pic1.png"></a>
+        
+           
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li> <a href="index.html"> Home</a></li>
+          <li> <a href="about.html"> About</a></li>
+          <li> <a href="page.html"> Gallery</a></li>
+          <li> <a href="portfolio.htm"> My Portfolio</a></li>
+      </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+        
+    <div class="text-boxpage">
+      <h1> About Gallery</h1>
+        </div>
+ </section>
+
+ <!-----------about us--------------->
+
+   <section class="about-us">
+
+  <div class="row">
+    <div class="about-col">
+  <p> The page was created to keep all memorable pictures to be saved in one place - <h1>  Frida Gallery </h1></p> 
+  <p> Next update will be in January</p> 
+      </div>
+
+    <div class="about-col">
+       <br> <img src="Pictures/images/for page/about.png">
+    </div>
+
+   </section>
+
+
+   <section class="contact-us">
+    <div class="row">
+      <div class="contact-col">
+
+        <div>
+          <i class="fa fa-heart"></i>
+          <span> 
+            <h5> Contact us</h5>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-dollar"></i>
+          <span> 
+            <h5>Card number: 5559494165486480</h5>
+            <p> Donation: <br> If you liked this project, then you can contribute to its support and development. </p>
+          </span>
+        </div>
+        <div>
+          <i class="fa fa-envelope-o"></i>
+          <span> 
+            <h5> fridasolomonsingh@gmail.com</h5>
+            <p> Feel free to mail us if you have any suggestions. </p>
+          </span>
+        </div>
+      </div>
+      <div class="contact-col">
+   <form action="form-handler.php" method="post">
+   <input type="text" name="name" placeholder="Enter your name" required>
+   <input type="email"name="email" placeholder="Enter email address" required>
+   <input type="text" name="subject" placeholder="Enter your subject" required>
+   <textarea rows="8" name="message" placeholder="Message" required></textarea>
+   <button type="Submit" class="hero-btn red-btn"> Send Message</button>
+   </form>
+  
+      </div>
+    </div>
+   </section>
+
+  
+<section class="footer">
+
+     <h4> About us </h4> 
+     <p> "Admiration is a very shortlived passion, that immediately decays <br> upon growing familiar with its object". 
+        <a href="https://en.wikipedia.org/wiki/Joseph_Addison" class="wikipedia-statements"> Joseph Addison </a> 
+        </p>
+        <div class="icons">
+          <a href="about.html"><i class="fa fa-dollar"></i></a>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedin"></i>
+            <a href="https://t.me/fridasolomon" ><i class="fa fa-telegram"></i></a>
+
+        </div>
+       
+        <p> Made with  <i class="fa fa-heart-o"></i> by FridaSolomon </p>
+
+</section>
+
+
+
+
+
+ <!-------- JavaScript for Toggle menu ---->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right="0";
+    }
+    function hideMenu() {
+        navLinks.style.right="-300px";
+    }
+
+</script>
+
+</body>
+</html>

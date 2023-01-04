@@ -1,0 +1,218 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta html-equiv="X-UA-Compatible" contents="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Farida UI/UX designer </title>
+
+        <link rel="stylesheet" href="style_portfolio.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+<div id="header">
+    <div class="container">
+<nav>
+
+    
+    <img src="pic/user1.jpg" class="logo">
+    <ul id="sidemenu">
+        <li> <a href="#header"> Home</a></li>
+        <li> <a href="#about"> About</a></li>
+        <li> <a href="#services"> Services</a></li>
+        <li> <a href="#portfolio"> Portfolio</a></li>
+        <li> <a href="#contact"> Contact</a></li>
+       <i class="fa fa-times" onclick="closemenu()"></i>
+    </ul>
+    <i class="fa fa-bars" onclick="openmenu()"></i>
+</nav>
+<div class="header-text">
+    <p> UI/UX Designer</p>
+    <h1> Hi, I'm  <span>Frida </span> <br>Solomon</h1>
+</div>
+
+    </div>
+    
+</div>
+<!----- about ---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="pic/user1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1> 
+                <p> I'm Self-taught UX-UI designer for software products. 
+                I'm passionate about improving the lives of others through design and am constantly looking to learn new things everyday.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p> 
+                    <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                    <p class="tab-links" onclick="opentab('education')"> Education </p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span> UI/UX</span> <br> Designing Web interfaces</li>
+                        
+                        <li> <span> Web Development</span> <br> Web Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li> <span> 2022-Current</span> <br> Internship</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li> <span> 2021</span> <br> Self-taught UI/UX design</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<!-------------------services----------->
+
+<div id="services">
+<div class="container">
+    <h1 class="sub-title">Planned Services</h1> 
+    <div class="services-list">
+        <div>
+            <i class="fa fa-code"></i>
+            <h2> Web Design</h2>
+            <p> Web design encompasses many different skills and disciplines in the production and maintenance of websites. </p>
+            <a href="#"> Learn More</a>
+        </div>
+        <div>
+            <i class="fa fa-crop"></i>
+            <h2> UI/UX Design</h2>
+            <p> UI refers to the screens, buttons, toggles, icons, and other visual elements that you interact with when using a website, app, or other electronic device. 
+                UX refers to the entire interaction you have with a product, including how you feel about the interaction. </p>
+            <a href="#"> Learn More</a>
+        </div>
+        <div>
+            <i class="fa fa-android"></i>
+            <h2> App Design</h2>
+            <p> App design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the app </p>
+            <a href="#"> Learn More</a>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+
+<!---------------Portfolio----------->
+
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title"> Planned Work</h1> 
+    <div class="work-list">
+       <div class="work">
+        <img src="Pic/pic2.jpg">
+        <div class="layer">
+            <h3> Social Media App</h3>
+            <p>The app connects you from the talented people around the world. Download it from play store.</p>
+            <a href="#"><i class="fa fa-external-link"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="Pic/pic2.jpg">
+        <div class="layer">
+            <h3> Music App</h3>
+            <p>The app connects you from the talented people around the world. Download it from play store.</p>
+            <a href="#"><i class="fa fa-external-link"></i></a>
+        </div>
+       </div>
+       <div class="work">
+        <img src="Pic/pic2.jpg">
+        <div class="layer">
+            <h3> Online Shopping App</h3>
+            <p>The app connects you from the talented people around the world. Download it from play store.</p>
+            <a href="#"><i class="fa fa-external-link"></i></a>
+        </div>
+       </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+</div>
+
+</div>
+
+
+<!-------- Contact ---->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p> <i class="fa fa-paper-plane"></i>fridasolomonsingh@gmail.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-instagram"></i> </a>
+                    <a href="#"> <i class="fa fa-facebook"></i></a> 
+                    <a href="#"> <i class="fa fa-linkedin"></i></a> 
+                    <a href="https://t.me/fridasolomon" ><i class="fa fa-telegram"></i></a>
+                </div>
+              <a href="pic/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>   
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Made with <i class="fa fa-heart"></i>  by FridaSolomon</p>
+    </div>
+</div>
+
+
+
+<!-------- JavaScript for About ---->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+  
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+       sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+       sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+</body>
+</html>
+ 
